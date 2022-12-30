@@ -39,3 +39,9 @@ Caution : you need to specify *dockeralexei/shoppingclient:version1* instead of 
 ### Set Continuous Deployment
 <img src="/pictures/continuous_deployment.png" title="continuous deployment"  width="800">
 <img src="/pictures/continuous_deployment2.png" title="continuous deployment"  width="800">
+
+
+## Developping Shopping.API Microservice
+
+### Run Docker
+<img src="/pictures/docker_run.png" title="docker run"  width="800">
