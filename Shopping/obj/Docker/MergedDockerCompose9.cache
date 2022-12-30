@@ -1,0 +1,41 @@
+services:
+  shopping.api:
+    build:
+      context: C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping
+      dockerfile: Shopping.API/Dockerfile
+    depends_on:
+      shopping.db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: shoppingapi
+    ports:
+    - published: 8000
+      target: 80
+  shopping.client:
+    build:
+      context: C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping
+      dockerfile: Shopping.Client/Dockerfile
+    depends_on:
+      shopping.api:
+        condition: service_started
+      shopping.db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ShoppingAPIUrl: http://shoppingapi
+    image: shoppingclient
+    ports:
+    - published: 8001
+      target: 80
+  shopping.db:
+    container_name: shoppingdb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - /site:/data/db:rw
+version: '3.4'

@@ -66,3 +66,19 @@ db.Products.find({}).pretty()
 db.Products.remove({})
 ```
 
+
+## Containerize Microservice
+
+### Container Orchestration Support in Shopping.API
+
+Choose Linux as operating system
+<img src="/pictures/orchestrator_support.png" title="orchestrator support"  width="800">
+
+Follow the same step for **Shopping.Client**
+<img src="/pictures/orchestrator_support.png" title="orchestrator support"  width="800">
+<img src="/pictures/orchestrator_support2.png" title="orchestrator support"  width="800">
+
+### Docker commands
+```
+docker system prune -a
+```

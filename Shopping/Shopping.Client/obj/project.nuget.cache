@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "O1ED5c52AthWSyQyuIAN3gZ68g15IFjhwhxYeeb/NJLj1pNlthtv92MoPkI4yE7JOwsO+yPjccAFQxZwe2anTQ==",
+  "dgSpecHash": "tRSOYlfRBQkCZwP+f8t0OIH+t4BuYd9T09UVMkWYqqjepzQ36Ny1MvvIQ1+btFpihWPXcdaqKPb87ev7Pqqs0A==",
   "success": true,
   "projectFilePath": "C:\\source\\Csharp\\Deploying_Net_Microservices_AKS\\Shopping\\Shopping.Client\\Shopping.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\alexe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
-    "C:\\Users\\alexe\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\alexe\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
