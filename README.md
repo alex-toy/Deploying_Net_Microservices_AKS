@@ -43,5 +43,26 @@ Caution : you need to specify *dockeralexei/shoppingclient:version1* instead of 
 
 ## Developping Shopping.API Microservice
 
-### Run Docker
-<img src="/pictures/docker_run.png" title="docker run"  width="800">
+### Package Nuget
+```
+MongoDb.Driver
+```
+
+### Docker commands
+```
+docker pull mongo
+docker run -d -p 27017:27017 --name shoppingmongo mongo
+docker exec -it shoppingmongo mongosh
+```
+
+### mongo commands
+```
+show dbs
+use ProductDb
+db.createCollection("products")
+show collections
+db.Products.insertMany([{ 'Name':'Asus Laptop','Category':'Computers', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':54.93 }, { 'Name':'HP Laptop','Category':'Computers', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':88.93 } ])
+db.Products.find({}).pretty()
+db.Products.remove({})
+```
+

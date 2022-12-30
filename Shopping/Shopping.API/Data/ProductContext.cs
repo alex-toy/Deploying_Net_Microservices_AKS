@@ -1,4 +1,7 @@
-﻿using Shopping.API.Models;
+﻿using Microsoft.Extensions.Configuration;
+using MongoDB.Driver;
+using Shopping.API.Models;
+using System.Collections.Generic;
 
 namespace Shopping.API.Data
 {
@@ -6,8 +9,8 @@ namespace Shopping.API.Data
     {
         public ProductContext(IConfiguration configuration)
         {
-            var client = new MongoClient(configuration["DatabaseSettings:ConnectionString"]);
-            var database = client.GetDatabase(configuration["DatabaseSettings:DatabaseName"]);
+            MongoClient client = new MongoClient(configuration["DatabaseSettings:ConnectionString"]);
+            IMongoDatabase database = client.GetDatabase(configuration["DatabaseSettings:DatabaseName"]);
 
             Products = database.GetCollection<Product>(configuration["DatabaseSettings:CollectionName"]);
             SeedData(Products);
@@ -70,7 +73,39 @@ namespace Shopping.API.Data
                 },
                 new Product()
                 {
-                    Name = "LG G7 ThinQ EndofCourse",
+                    Name = "LG G7 ThinQ EndofCourse test1",
+                    Description = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
+                    ImageFile = "product-6.png",
+                    Price = 240.00M,
+                    Category = "Home Kitchen"
+                },
+                new Product()
+                {
+                    Name = "LG G7 ThinQ EndofCourse test2",
+                    Description = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
+                    ImageFile = "product-6.png",
+                    Price = 240.00M,
+                    Category = "Home Kitchen"
+                },
+                new Product()
+                {
+                    Name = "LG G7 ThinQ EndofCourse test3",
+                    Description = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
+                    ImageFile = "product-6.png",
+                    Price = 240.00M,
+                    Category = "Home Kitchen"
+                },
+                new Product()
+                {
+                    Name = "LG G7 ThinQ EndofCourse test4",
+                    Description = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
+                    ImageFile = "product-6.png",
+                    Price = 240.00M,
+                    Category = "Home Kitchen"
+                },
+                new Product()
+                {
+                    Name = "LG G7 ThinQ EndofCourse test5",
                     Description = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
                     ImageFile = "product-6.png",
                     Price = 240.00M,

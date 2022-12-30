@@ -26,3 +26,14 @@ C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\obj\Debug
 C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\obj\Debug\net5.0\Shopping.API.pdb
 C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\obj\Debug\net5.0\Shopping.API.genruntimeconfig.cache
 C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\obj\Debug\net5.0\ref\Shopping.API.dll
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\DnsClient.dll
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\SharpCompress.dll
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\Snappier.dll
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\ZstdSharp.dll
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\source\Csharp\Deploying_Net_Microservices_AKS\Shopping\Shopping.API\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
