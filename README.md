@@ -82,3 +82,12 @@ Follow the same step for **Shopping.Client**
 ```
 docker system prune -a
 ```
+
+
+## Kubernetes
+
+### Kubernetes commands
+```
+kubectl get all
+kubectl cluster-info
+```
